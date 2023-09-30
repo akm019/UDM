@@ -1,0 +1,143 @@
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration:none;
+    border:none;
+    outline:none;
+    scroll-behavior: smooth;
+    font-family: 'Kurale', serif;
+    list-style:none;
+}
+:root{
+    --bg-color:white;
+    --second-bg-color:#7fbeda;
+    --text-color:black;
+    --main-color:#0ef;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+
+}
+body{
+    background:var(--bg-color);
+    color: black;
+    height: 100vh;
+    width: 100%;
+
+
+}
+.header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:2rem 2%;
+    background: black;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    z-index:100;
+    height:100px;
+    box-shadow:2px black;
+}
+
+#logo{
+    width:100px;
+    left:0;
+}
+.navbar a{
+    font-size :1.7rem;
+    color:white;
+    font-weight:500;
+    margin-left:3.5rem;
+}
+.navbar a:hover,
+.navbar a.active {
+    color:var(--main-color);
+
+}
+#menu-icon{
+    font-size:3.6rem;
+    color:var(--text-color);
+    cursor:pointer;
+    display:none;
+}
+section{
+    min-height:100vh;
+    padding:10rem 9% 2rem;
+
+}
+
+
+.headin.navbar a {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  /* Media query for screens with a maximum width of 768px */
+  @media only screen and (max-width: 600px) {
+    .himage {
+      margin-top: 40px; /* Increase space between h1 and image on smaller screens */
+    }
+  
+    /* Move the image below h1 on small screens */
+    .himage {
+      order: 2;
+    }
+  
+    .SEO {
+      padding: 10px;
+    }
+  }
+  
+  *{
+      margin:0;
+      padding-top:10px;
+      padding-left:20px;
+      box-sizing:border-box;
+      text-decoration:none;
+      border:none;
+      outline:none;
+      scroll-behavior: smooth;
+      font-family: 'Josefin Slab', serif;
+      position: center;
+  }
+  .heading{
+    font-weight:400;
+    justify-content: center;
+    color:
+
+  }
+  h1{
+    color:rgb(45, 109, 227);
+    font-weight:800;
+    font-size: 40px;
+  }
+  h2{
+    font-size:30px;
+    color:blueviolet
+  }
+  h3{
+    color:rgb(52, 181, 224)
+  }
+  h4{
+    color:rgb(55, 196, 227)
+  }
+  .himage{
+    height:300px;
+    float: right;
+    margin-right: 1.0rem;
+    margin-top:4rem;
+  }
+  .Content{
+ margin-bottom:20px;
+  }
+  .SEO{
+    text-align:center;
+    padding:20px;
+  }
+  button{
+    display:
+  }

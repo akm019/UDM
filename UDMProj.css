@@ -1,0 +1,55 @@
+
+#navbar{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    font-family: 'Kurale', serif;
+}
+#navbar li{
+    list-style:none;
+    margin-left:20px;
+}
+:root{
+    --bg-color:#1f242d;
+    --second-bg-color:#323946;
+}
+#navbar li a{
+    text-decoration: solid;
+    font-size: 18px;
+    color:grey;
+    padding:6px 10px;
+
+}
+#navbar li a:hover,
+#navbar li a.active {
+
+
+color:white;
+transition: 0.3s ease-in-out;
+
+}
+
+
+#header{
+    position:absolute;
+    top:0;
+    left:0px;
+    width:98%;
+    padding:20px 20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:black; 
+}
+#logo{
+    width:100px;
+}
+#hero{
+    margin-top:10%;
+    color:rgb(106, 192, 239);
+    background-color: grey;
+    width: 100px;
+
+}
+
+
