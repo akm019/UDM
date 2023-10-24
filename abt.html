@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kurale&display=swap" rel="stylesheet">
+    <style>
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family:'Kurale',serif;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 2rem 2%;
+            background: black;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;
+            height: 60px;
+            box-shadow: 2px black;
+            color: white; /* Added to ensure text color is visible */
+        }
+
+        #logo {
+            width: 100px;
+            left: 0;
+        }
+
+        .navbar a {
+            font-size: 1rem;
+            color: white;
+            font-weight:100;
+            margin-left: 3.5rem;
+            margin-right:50px;
+        }
+
+        .navbar a:hover,
+        .navbar a.active {
+            color: #007bff; /* Adjusted to blue color */
+        }
+
+        #menu-icon {
+            font-size: 3.6rem;
+            color: white; /* Adjusted to white color */
+            cursor: pointer;
+            display: none;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            padding-top:300px;
+        }
+
+        h1 {
+             /* Blue color for "US" */
+        }
+
+        .content-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-right: 20px; /* Add spacing between image and text */
+        }
+
+        p {
+            max-width: 400px; /* Adjust the width of the content */
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#"><img id="logo" src="UNBOXING DEALS 2️⃣ 20230809_202714.jpg"> </a>
+        <nav class="navbar">
+            <a href="#home" >Home</a>
+            <a href="#about" class="active">About</a>
+            <a href="services.html">Services</a>
+            <a href="contactus.html">Contact Us</a>
+        </nav>
+        <div class='bx bx-menu' id="menu-icon"></div>
+    </header>
+
+    <main>
+        <h1>ABOUT <span style="color: #007bff;">US</span></h1>
+
+        <div class="content-container">
+            <img src="Hari Web Infotech Pvt Ltd.gif" alt="Digital Marketing Company Image">
+            <p>
+                Unboxing Deals is dedicated to providing top-notch services to help businesses thrive in the online world. We specialize in creating effective strategies, building strong brand identities, and delivering results. With a team of experts, we focus on driving success for our clients through innovative and tailored digital marketing solutions.
+            </p>
+        </div>
+    </main>
+
+</body>
+
+</html>
